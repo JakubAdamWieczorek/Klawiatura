@@ -1,0 +1,31 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@font-face {
+    font-family: 'Antykwa Półtawskiego';
+    font-weight: normal;
+    font-style: normal;
+    src: url('/public/fonts/antpoltsemiexpd-regular.ttf') format('truetype');
+}
+
+div.wrapper {
+    width: 960px;
+}
+
+section {
+    width: 600px;
+}
+
+body {
+    color: black;
+    font-family: "Antykwa Półtawskiego";
+    font-size: 18px;
+}
+
+img.logo {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 100px;
+	margin-bottom: 25px;
+}
