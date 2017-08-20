@@ -30,7 +30,8 @@
 
         {% if site.show_downloads %}
           <ul>
-            <li><a href="{{ site.installer_url }}">Ściągnij <strong>instalator</strong></a></li>
+            {% assign last_release = site.github.releases | last %}
+            <li><a href="{{ site.github.releases_url }}/download/{{ last_release.tag_name }}/Lukierda.exe">Ściągnij <strong>instalator</strong></a></li>
           </ul>
         {% endif %}
       </header>
