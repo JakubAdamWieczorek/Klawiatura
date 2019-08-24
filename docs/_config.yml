@@ -3,3 +3,4 @@ theme: jekyll-theme-minimal
 show_downloads: true
 installer_url: https://github.com/JakubAdamWieczorek/Lukierda/releases/download/0.1.1/Lukierda.exe
 lang: pl_PL
+root: /Lukierda/
